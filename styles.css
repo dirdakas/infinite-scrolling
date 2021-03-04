@@ -2,9 +2,9 @@ html {
   text-align: center;
 }
 
-#list {
-  width: 200px;
-  height: 200px;
+#imageContainer {
+  width: 250px;
+  height: 400px;
   overflow: auto;
   margin: 30px auto;
 
@@ -12,10 +12,11 @@ html {
   border: 5px solid black;
 }
 
-li {
+img {
   padding: 15px 5px;
   list-style-type: none;
+  width: 200px;
 }
-li:hover {
+img:hover {
   background: #bbbbbb;
 }

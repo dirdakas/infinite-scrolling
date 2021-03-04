@@ -1,12 +1,13 @@
-var listElm = document.querySelector('#list');
+var listElm = document.querySelector('#imageContainer');
 
 var maxLoadedItems = 10;
 var nextItem = 1;
 
 var loadMore = function() {
   for (var i = 0; i < maxLoadedItems; i++) {
-    var item = document.createElement('li');
-    item.innerText = `this is my item # ${nextItem++}`;
+    var item = document.createElement('img');
+    item.src = 'assets/paris.jpg'
+    item.alt = `this is my item # ${nextItem++}`;
     listElm.appendChild(item);
   }
 }
