@@ -1,0 +1,21 @@
+html {
+  text-align: center;
+}
+
+#list {
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+  margin: 30px auto;
+
+  padding: 20px 10px;
+  border: 5px solid black;
+}
+
+li {
+  padding: 15px 5px;
+  list-style-type: none;
+}
+li:hover {
+  background: #bbbbbb;
+}
