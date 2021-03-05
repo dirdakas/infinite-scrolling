@@ -2,12 +2,13 @@ html {
   text-align: center;
 }
 
-#imageContainer {
+#imageList {
+  position: relative;
+  display: inline-block;
   width: 250px;
   height: 400px;
   overflow: auto;
   margin: 30px auto;
-
   padding: 20px 10px;
   border: 5px solid black;
 }
@@ -16,7 +17,19 @@ img {
   padding: 15px 5px;
   list-style-type: none;
   width: 200px;
+  height: 120px;
+  display: inline-block;
 }
+
 img:hover {
   background: #bbbbbb;
+}
+
+img.loading:hover {
+  background: #aaaaaa;
+}
+
+img.loading {
+  background: #ffc0cb;
+  opacity: 0.3;
 }
